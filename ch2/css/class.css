@@ -1,0 +1,19 @@
+.cod-title {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-size: 2.2rem;
+    font-weight: 700;
+
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+    text-align: center;
+}
+
+.cod-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(21, 54, 100);
+}
