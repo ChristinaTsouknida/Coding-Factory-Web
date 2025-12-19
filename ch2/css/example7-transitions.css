@@ -21,3 +21,63 @@
 .box2:hover {
     width: 500px;
 }
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    transition: transform 3s;
+    margin-bottom: 10px;
+}
+
+.box3:hover {
+    transform: rotate(20deg);
+}
+
+.box4 {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    transition: transform 4s;
+}
+
+.box4:hover {
+    transform: rotate(90deg) scale(2) translateY(-100%) translateX(40%);
+}
+
+.snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 9999;
+
+    background-image:
+    radial-gradient(circle, white 1.5px, transparent 2px),
+    radial-gradient(circle, white 1px, transparent 2px),
+    radial-gradient(circle, white 2px, transparent 3px);
+
+    background-size:
+    100px 100px,
+    150px 150px,
+    250px 250px;
+
+    animation: snow 10s linear infinite;
+}
+
+@keyframes snow {
+    from {
+        background-position:
+        0 -100px,
+        0 -200px
+        0 -300px;
+    }
+    to {
+        background-position: 
+        0 100vh,
+        0 120vh
+        0 140vh;
+    }
+}
