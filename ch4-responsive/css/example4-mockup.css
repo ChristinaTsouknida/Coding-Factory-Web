@@ -65,7 +65,7 @@ nav > ul >li:last-of-type {
   list-style: none;
 
   flex-direction: column;
-  
+
 }
 
 .home-img {
@@ -113,26 +113,30 @@ footer {
   padding: 0 10px;
 }
 
-.menu-toggler {
-    display: none;
-}
-
-.navbar-toggler:hover {
-    
-}
-
 .navbar-toggler {
-    display: none;
-    margin-right: 40px;
+  display: none;
+  margin-right: 40px;
+}
+
+.menu-toggler {
+  display:none;
 }
 
 @media (max-width:992px) {
-    nav {
-        display: none;
-    }
+  nav {
+    display: none;
+  }
 
-    .navbar-toggler {
-        display: block;
-    }
+  .navbar-toggler {
+    display: block;
+  }
 }
 
+/* Add for javascript */
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
